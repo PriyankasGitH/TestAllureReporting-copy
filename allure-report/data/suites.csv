@@ -1,2 +1,4 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Sat Aug 03 10:25:50 EDT 2024","Sat Aug 03 10:25:51 EDT 2024","877","chromium","smoke/test1.spec.ts","","","","Login test",""
+"passed","Sat Aug 03 12:56:57 EDT 2024","Sat Aug 03 12:56:58 EDT 2024","933","chromium","smoke/test1.spec.ts","","","","Login test",""
+"skipped","Sat Aug 03 12:56:57 EDT 2024","Sat Aug 03 12:56:57 EDT 2024","1","chromium","smoke/test3.spec.ts","","","","Skip Test",""
+"passed","Sat Aug 03 12:56:57 EDT 2024","Sat Aug 03 12:56:58 EDT 2024","957","chromium","smoke/test2.spec.ts","","","","Failed Login test",""
