@@ -1,0 +1,29 @@
+<testsuites id="" name="" tests="2" failures="1" skipped="0" errors="0" time="10.722486">
+<testsuite name="testData/testAllureReports.spec.ts" timestamp="2024-08-03T11:59:55.401Z" hostname="chromium" tests="2" failures="1" skipped="0" time="11.214" errors="0">
+<testcase name="Login conduit using to check login" classname="testData/testAllureReports.spec.ts" time="1.186">
+</testcase>
+<testcase name="Login conduit using to check failure" classname="testData/testAllureReports.spec.ts" time="10.028">
+<failure message="testAllureReports.spec.ts:13:5 Login conduit using to check failure" type="FAILURE">
+<![CDATA[  [chromium] › testData/testAllureReports.spec.ts:13:5 › Login conduit using to check failure ──────
+
+    Test timeout of 10000ms exceeded.
+
+    Error: locator.fill: Test timeout of 10000ms exceeded.
+    Call log:
+      - waiting for locator('//input[@placeholder="nvbnPassworddddd"]')
+
+
+      16 |     await page.locator('//a[normalize-space()="Sign in"]').click()
+      17 |     await page.locator('//input[@placeholder="Email"]').fill('playwrightdemo@gmail.com')
+    > 18 |     await page.locator('//input[@placeholder="nvbnPassworddddd"]').fill('playwrightdemo')
+         |                                                                    ^
+      19 |     await page.locator('//button[normalize-space()="Sign in"]').click();
+      20 |     //await expect(page.locator('(//li[normalize-space()="password can\'t be blank"])[1]')).toBeVisible();
+      21 |
+
+        at /Users/priyanka/VS Code Projects/TestAllureReporting/tests/testData/testAllureReports.spec.ts:18:68
+]]>
+</failure>
+</testcase>
+</testsuite>
+</testsuites>
